@@ -1,0 +1,10 @@
+MinerList:
+  - localhost:3033
+
+CoinList:
+  coin1: Coin1
+  coin2: Coin2
+  # pyrin: Pyrin
+  # gram: Gram
+
+CurrentCoin: coin2

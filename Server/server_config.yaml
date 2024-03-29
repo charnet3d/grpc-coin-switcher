@@ -1,0 +1,14 @@
+listen_address: 0.0.0.0
+listen_port: 3033
+batch_path: D:\Char\Documents\Visual Studio 2022\Projects\GrpcCoinSwitcher\Server\1.bat
+kill_miner_batch: D:\Char\Documents\Visual Studio 2022\Projects\GrpcCoinSwitcher\Server\2.bat
+# batch_path: D:\2_ProgramsPortable\gpu_miner.bat
+# kill_miner_batch: D:\2_ProgramsPortable\kill_gpu_miners.bat
+
+CoinMinerScripts:
+  coin1: "\"D:\\Char\\Documents\\Visual Studio 2022\\Projects\\GrpcCoinSwitcher\\Server\\c1.bat\""
+  coin2: "\"D:\\Char\\Documents\\Visual Studio 2022\\Projects\\GrpcCoinSwitcher\\Server\\c2.bat\""
+  # pyrin: D:\2_ProgramsPortable\cmder\vendor\conemu-maximus5\ConEmu64.exe -reuse -run {lol-pyrin} -cur_console:n
+  # gram: D:\2_ProgramsPortable\cmder\vendor\conemu-maximus5\ConEmu64.exe -reuse -run {lol-gram} -cur_console:n
+  # hoosat: D:\2_ProgramsPortable\cmder\vendor\conemu-maximus5\ConEmu64.exe -reuse -run {lol-hoosat} -cur_console:n
+  # karlsen: D:\2_ProgramsPortable\cmder\vendor\conemu-maximus5\ConEmu64.exe -reuse -run {lol-karlsen} -cur_console:n

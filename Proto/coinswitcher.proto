@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+service MinerController {
+	rpc SwitchCoin(SwitchCoinRequest) returns (SwitchCoinResponse) {}
+}
+
+message SwitchCoinRequest {
+	string coin = 1;
+}
+
+message SwitchCoinResponse {
+	bool success = 1;
+	string message = 2;
+}
