@@ -4,6 +4,8 @@ Grpc Coin Switcher
 Small utility to control multiple remote PCs that are running mining software. With the config setup correctly, you can switch the coin currently being mined on all the PCs at once. Each PC runs a server that receives the request to switch a coin, then it runs the script to kill the miner and another to run the new miner. Each coin can have its specific script or command line setup in the config file.
 There are sample yaml configs for the client and the server with some simple .bat scripts to simulate real ones for testing purposes.
 
+![screenshot](https://github.com/charnet3d/grpc-coin-switcher/blob/main/doc/screenshot.png?raw=true)
+
 # Pre-requisites
 
 gRPC and Yaml-cpp can be compiled pretty easily using the included scripts `build_grpc.bat` and `build_yamlcpp.bat`. Just make sure to install the pre-requisites for gRPC.
